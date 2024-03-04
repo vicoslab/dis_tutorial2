@@ -14,7 +14,7 @@ In ROS we usually have multiple nodes running at the same time and it quickly be
 
 For these purposes we use the `ros2 launch` tool. This tool starts multiple nodes, as they are configured in a `.launch.py` script. Launch scripts can be set up in Python, XML, or YAML, but Python is the widely used standard. 
 
-Run the following command in the terminal: `ros2 launch py_srvcli services.launch.py` Which nodes were just started? (Hint: rqt_graph)
+Run the following command in the terminal: `ros2 launch dis_tutorial2 example_launch.py` Which nodes were just started? (Hint: rqt_graph)
 
 To familiarize yourself with some additional functionalities like setting parameters and remapping topic names see [the launch file documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html).
 

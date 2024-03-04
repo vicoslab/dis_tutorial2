@@ -1,0 +1,24 @@
+launch:
+
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+    name: "sim_node"
+    output: "screen"
+
+- node:
+    pkg: "dis_tutorial2"
+    exec: "random_velocity_publisher"
+    name: "random_velocity_publisher_node"
+    output: "screen"
+    param:
+    -
+        name: "scale_linear"
+        value: 0.97
+    -
+        name: "scale_angular"
+        value: 1.03
+    remap:
+    -
+        from: "/cmd_vel"
+        to: "/turtle1/cmd_vel"

@@ -1,6 +1,6 @@
 # Tutorial 2: Introduction to ROS2 - some additional concepts
 
-#### Development of Inteligent Systems, 2024
+#### Development of Intelligent Systems, 2024
 
 In this exercise you will get further familiarized with [ROS2](https://twitter.com/OpenRoboticsOrg/status/1629208251563929600). We will explore services,
 writing nodes in Python, the usage of `ros2 launch` and `ros2 bag` commands as well as some

@@ -1,3 +1,4 @@
+
 # Tutorial 2: Introduction to ROS2 - some additional concepts
 
 #### Development of Intelligent Systems, 2024
@@ -32,10 +33,15 @@ ROS contains the `ros2 bag` node which enables the recording and playback of mes
 
 - [ROS 2 bag documentation](https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html)
 
+## Achtung
+You can find a simple variant of the popular game Achtung, die Kurve! implemented in turtlesim in script `achtung_die_turtles.py`. You can run it on your own, then analyze the code to see how the various parts of the gameplay loop are implemented in ROS2.
+
 
 ## RQT GUI tools 
 
 `rqt` (starts the ROS2 inspection GUI, contains tools for visualizing topics and nodes, publishing messages, viewing images, plotting data, etc.). These tools can also be launched directly, e.g. `ros2 run rqt_reconfigure rqt_reconfigure`.
+
+# Homework 2
 
 ## Writing a turtle mover
 

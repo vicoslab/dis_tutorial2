@@ -32,15 +32,6 @@ ROS contains the `ros2 bag` node which enables the recording and playback of mes
 
 - [ROS 2 bag documentation](https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html)
 
-## Lifecycle nodes
-
-In certain cases, we want a multitude of nodes to launch and wait for each other to become ready until they all start working, e.g. a navigation stack, and cleaning up al the nodes afterwards. ROS 2 has the concept of lifecycle nodes which can be triggered through these transitions, either though the CLI or through lifecycle manager nodes.
-
-For a more substantial rundown, see this [Foxglove article on lifecycle nodes](https://foxglove.dev/blog/how-to-use-ros2-lifecycle-nodes)
-
-## Callback groups
-
-Rclpy is at the time of this writing currently still not very well optimized, and as such it may require resorting to [multi threaded executors and callback groups](https://discourse.ros.org/t/how-to-use-callback-groups-in-ros2/25255) for smooth operation. 
 
 ## RQT GUI tools 
 

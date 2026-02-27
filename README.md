@@ -17,7 +17,7 @@ For these purposes we use the `ros2 launch` tool. This tool starts multiple node
 
 Run the following command in the terminal: `ros2 launch dis_tutorial2 example_launch.py` Which nodes were just started? (Hint: rqt_graph)
 
-To familiarize yourself with some additional functionalities like setting parameters and remapping topic names see [the launch file documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html).
+To familiarize yourself with some additional functionalities like setting parameters and remapping topic names see [the launch file documentation](https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html).
 
 ## Parameters
 
@@ -45,7 +45,7 @@ You can find a simple variant of the popular game Achtung, die Kurve! implemente
 
 ## Writing a turtle mover
 
-Your task is to create a service node which moves the simulated turtle from the turtlesim package. Check the [custom msgs and srvs documentation](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html) for help.
+Your task is to create a service node which moves the simulated turtle from the turtlesim package. Check the [custom msgs and srvs documentation](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html) for help.
 
 The service request should contain a string and an integer field. The string should be one of:
 

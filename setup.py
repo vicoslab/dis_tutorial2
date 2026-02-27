@@ -22,9 +22,7 @@ setup(
     entry_points={
         'console_scripts': [
             'random_velocity_publisher = dis_tutorial2.random_velocity_publisher_node:main',
-            'go_to_position = dis_tutorial2.go_to_position_simple_node:main',
-            'achtung_die_turtle = dis_tutorial2.achtung_die_turtles:main',
-            'intersection = dis_tutorial2.intersection:main'
+            'go_to_position = dis_tutorial2.go_to_position_simple_node:main'
         ],
     },
 
